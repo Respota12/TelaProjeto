@@ -17,7 +17,7 @@ export default function Index() {
         <Text style={styles.titulo}> Novo Dia</Text>
         <Text style={styles.subtitulo}>Seu app de saúde e bem-estar</Text>
 
-        <TouchableOpacity style={styles.botao} onPress={() => router.push('/tabs')}>
+        <TouchableOpacity style={styles.botao} onPress={() => router.push('/')}>
           <Text style={styles.botaoTexto}>Começar</Text>
         </TouchableOpacity>
 
